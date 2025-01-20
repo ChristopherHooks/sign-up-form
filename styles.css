@@ -1,5 +1,29 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(fonts/Norse-Bold.otf) format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#img-conatiner {
+    background-color: aqua;
+    width: 30%;
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+}
+
+#form-container {
+    background-color: bisque;
+    width: 70%;
 }
