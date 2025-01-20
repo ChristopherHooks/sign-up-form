@@ -24,6 +24,23 @@ body {
 }
 
 #form-container {
+    display: flex;
+    flex-direction: column;
     background-color: bisque;
     width: 70%;
+}
+
+.blurb {
+    background-color: #F9FAFB;
+    height: 35%;
+}
+
+.form {
+    background-color: white;
+    height: 30%;
+}
+
+.btn-container {
+    background-color: #F9FAFB;
+    height: 35%;
 }
