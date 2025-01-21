@@ -56,7 +56,7 @@ body {
 }
 
 .blurb {
-    height: 35%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -66,7 +66,7 @@ body {
 
 .blurb p,
 .blurb p em {
-    font-family: system-ui, sans-serif;
+    font-family: 'Arial', system-ui, sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.6rem;
@@ -79,9 +79,16 @@ body {
 }
 
 .btn-container {
-    height: 35%;
+    height: 30%;
     margin: 5% 5%;
+    font-weight: bold;
 }
+
+.btn-container a {
+    text-decoration: none;
+    color: #596D48;
+}
+
 
 .btn {
     width: 200px;
@@ -93,4 +100,5 @@ body {
     font-weight: bold;
     border-style: none;
     box-shadow: rgb(99, 99, 99) 4px 4px 16px -4px;
+    margin-bottom: 5%;
 }
