@@ -16,11 +16,11 @@
 body {
     display: flex;
     height: 100vh;
+    width: 100%;
 }
 
 #img-container {
-    background-color: aqua;
-    width: 38%;
+    width: 38vw;
     background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-position: center
@@ -52,7 +52,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--bg-color);
-    width: 60%;
+    width: 62vw;
 }
 
 .blurb {
@@ -61,7 +61,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 15% 15% 10% 5%
+    padding: 3rem 4rem 3rem 2rem;
 }
 
 .blurb p,
@@ -74,13 +74,85 @@ body {
 
 .form {
     background-color: white;
-    height: 30%;
+    /* height: 30%; */
     box-shadow: rgb(194, 194, 194) 2px 4px 16px -4px;
+    padding: 2rem;
+}
+
+.fields {
+    margin-top: 1rem;
+    font-size: small;
+    font-weight: bold;
+    color: #767676;
+}
+
+.fields input {
+    line-height: 2rem;
+    border-radius: 4px;
+    border: 2px solid #d7d7d7cd;
+}
+
+.fields label {
+    margin-bottom: 0.5rem;
+}
+
+.fields input {
+    width: 20vw;
+    padding-left: .5rem;
+}
+
+.fields input:focus {
+    outine: 2px solid #596D48;
+}
+
+
+.name {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name input[type="text"] {}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.login {
+    display: flex;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
 }
 
 .btn-container {
     height: 30%;
-    margin: 5% 5%;
+    margin: 2rem 0 2rem 2rem;
     font-weight: bold;
 }
 
@@ -91,7 +163,7 @@ body {
 
 
 .btn {
-    width: 200px;
+    width: 250px;
     padding: 12px 16px;
     border-radius: 12px;
     background-color: #596D48;
@@ -100,5 +172,5 @@ body {
     font-weight: bold;
     border-style: none;
     box-shadow: rgb(99, 99, 99) 4px 4px 16px -4px;
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
 }
